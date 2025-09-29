@@ -1,0 +1,186 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "TripSync – Share the ride";
+}
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+<section class="hero section" aria-labelledby="site-hero">
+    <div class="container grid grid-2" style="align-items:center;">
+        <div>
+            <h1 id="site-hero" style="font-size:2.2rem; line-height:1.15; margin-bottom:.75rem;">TripSync — share rides, split costs, breathe easier</h1>
+            <p class="muted" style="font-size:1.1rem;">Make commuting cheaper, reduce traffic, and cut CO₂ by finding people headed your way.</p>
+            <div style="margin-top:1rem; display:flex; gap:.75rem; flex-wrap:wrap;">
+                <a class="btn btn-primary" href="/Account/Register" aria-label="Create your account">
+                    <span>Get started</span>
+                </a>
+                <a class="btn btn-secondary" href="/Account/Login" aria-label="Sign in">
+                    <span>Sign in</span>
+                </a>
+            </div>
+            <div style="margin-top:1rem; display:flex; gap:.5rem; flex-wrap:wrap;">
+                <span class="chip" title="Affordable">💸 More affordable</span>
+                <span class="chip" title="Greener">🌍 Lower CO₂</span>
+                <span class="chip" title="Trusted">🔒 Verified profiles</span>
+            </div>
+        </div>
+        <div class="card" role="complementary" aria-label="Quick ride search">
+            <h2 style="font-size:1.25rem; margin-bottom:.5rem;">Find a ride</h2>
+            <form method="get" action="/Rides/Search" aria-describedby="search-help" class="trip-search-form">
+                <p id="search-help" class="sr-only">
+                    Search rides by starting point, destination, and time.
+                </p>
+                <div class="trip-search-row">
+                    <!-- From -->
+                    <div class="trip-field">
+                        <label for="from" class="form-label">From</label>
+                        <input id="from" name="from" type="text" class="form-control trip-input"
+                               placeholder="e.g., Utrecht" autocomplete="address-level2" required />
+                    </div>
+
+                    <!-- To -->
+                    <div class="trip-field">
+                        <label for="to" class="form-label">To</label>
+                        <input id="to" name="to" type="text" class="form-control trip-input"
+                               placeholder="e.g., Amsterdam" autocomplete="address-level2" required />
+                    </div>
+
+                    <!-- Date & Time -->
+                    <div class="trip-field">
+                        <label for="date" class="form-label">Date & Time</label>
+                        <input id="date" name="date" type="datetime-local" class="form-control trip-input" required />
+                    </div>
+
+                    <!-- Search Button -->
+                    <div class="trip-button">
+                        <button class="btn btn-primary btn-lg" type="submit">Search</button>
+                    </div>
+                </div>
+            </form>
+            <div style="margin-top:.75rem;">
+                <a class="btn btn-secondary" href="/Rides/Offer">+ Offer a ride</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="how-it-works">
+    <div class="container">
+        <h2 id="how-it-works">How it works</h2>
+        <div class="grid grid-3" style="margin-top:1rem;">
+            <div class="card">
+                <h3>1) Create a profile</h3>
+                <p class="muted">Sign up with email or phone. Add your name, photo, and optionally your car.</p>
+            </div>
+            <div class="card">
+                <h3>2) Offer or find a ride</h3>
+                <p class="muted">Drivers post seats with departure time. Passengers search by route and time.</p>
+            </div>
+            <div class="card">
+                <h3>3) Split costs automatically</h3>
+                <p class="muted">We estimate fuel/tolls and split fairly across passengers.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="targets">
+    <div class="container">
+        <h2 id="targets">Made for your commute</h2>
+        <div class="grid grid-4" style="display:grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap:1rem;">
+            <div class="card"><strong>University Students</strong><p class="muted">Cheap, easy rides to campus.</p></div>
+            <div class="card"><strong>Office Workers</strong><p class="muted">Hassle-free daily commutes.</p></div>
+            <div class="card"><strong>Event Visitors</strong><p class="muted">Concerts, sports, conferences.</p></div>
+            <div class="card"><strong>Eco‑Friendly Travelers</strong><p class="muted">Lower your carbon footprint.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="trust-safety">
+    <div class="container grid grid-3">
+        <div class="card">
+            <h2 id="trust-safety">Safety & trust</h2>
+            <ul>
+                <li>Verified profiles (email, phone, optional student ID).</li>
+                <li>Driver profile & car info shown before booking.</li>
+                <li>Post‑ride ratings & reviews.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Notifications</h3>
+            <ul>
+                <li>Ride confirmations & reminders</li>
+                <li>Cancellations & updates</li>
+                <li>Payment status</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Eco‑Rewards</h3>
+            <p class="muted">Earn points for shared rides; unlock badges or discounts.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="live-metrics">
+    <div class="container grid grid-3">
+        <div class="card" aria-live="polite">
+            <div class="kpi" id="kpi-users">–––</div>
+            <div class="muted">verified riders</div>
+        </div>
+        <div class="card" aria-live="polite">
+            <div class="kpi" id="kpi-co2">–––</div>
+            <div class="muted">kg CO₂ saved</div>
+        </div>
+        <div class="card" aria-live="polite">
+            <div class="kpi" id="kpi-seats">–––</div>
+            <div class="muted">seats available today</div>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="testimonials">
+    <div class="container">
+        <h2 id="testimonials">What riders say</h2>
+        <div class="grid grid-3" style="margin-top:1rem;">
+            <div class="card"><p>“Cut my commute cost in half and met a fellow student from my faculty.”</p><p class="muted">— Mira, Utrecht</p></div>
+            <div class="card"><p>“Posting my daily route filled my spare seats in minutes.”</p><p class="muted">— Jonas, driver</p></div>
+            <div class="card"><p>“Love the clear price split and reminders.”</p><p class="muted">— Fatima, Amsterdam</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="section" aria-labelledby="cta">
+    <div class="container" style="text-align:center;">
+        <h2 id="cta">Ready to ride together?</h2>
+        <p class="muted">Create an account to find rides headed your way.</p>
+        <div style="margin-top:1rem; display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap;">
+            <a class="btn btn-primary" href="/Account/Register">Get started</a>
+            <a class="btn btn-secondary" href="/Rides/Offer">Offer a ride</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container grid" style="gap:.5rem;">
+        <div>
+            <strong>TripSync</strong> <span class="muted">• Share rides, split costs, save CO₂</span>
+        </div>
+        <nav aria-label="Footer">
+            <a href="/About">About</a> •
+            <a href="/Safety">Safety</a> •
+            <a href="/Legal/Privacy">Privacy</a> •
+            <a href="/Legal/Terms">Terms</a> •
+            <a href="/Contact">Contact</a>
+        </nav>
+    </div>
+</footer>
+
+<script>
+    (function(){
+      const fmt = n => new Intl.NumberFormat().format(n);
+      const users = 1240, co2 = 8620, seats = 73;
+      const el = (id,val)=>{ const e=document.getElementById(id); if(e) e.textContent = fmt(val); };
+      el('kpi-users', users); el('kpi-co2', co2); el('kpi-seats', seats);
+    })();
+</script>

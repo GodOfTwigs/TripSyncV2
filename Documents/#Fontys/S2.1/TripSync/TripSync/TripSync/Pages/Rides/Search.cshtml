@@ -1,0 +1,70 @@
+﻿@page
+@model TripSync.Pages.Rides.SearchModel
+@{
+    ViewData["Title"] = "Search Rides";
+}
+
+<h1>Search Results</h1>
+
+<p class="text-muted">
+    Showing rides from <strong>@Model.From</strong> to <strong>@Model.To</strong>
+    on <strong>@(Model.Date == default ? "Any Date" : Model.Date.ToString("dd MMM yyyy, HH:mm"))</strong>.
+</p>
+
+<!-- Top Matches -->
+@if (Model.TopMatches.Any())
+{
+    <h3 class="mt-4">🚀 Best Matches</h3>
+    <div class="list-group mb-4">
+        @foreach (var ride in Model.TopMatches)
+        {
+            <div class="list-group-item list-group-item-action mb-2 shadow-sm rounded border-success">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="text-success">@ride.driver_id.ToString()</h5>
+                        <p class="mb-1 text-muted">
+                            @ride.start_point → @ride.destination<br />
+                            Departure: @ride.departure_time.ToString("dd MMM yyyy, HH:mm")
+                        </p>
+                    </div>
+                    <div>
+                        <span class="badge bg-success me-3">@ride.available_seats seats</span>
+                        <button class="btn btn-sm btn-outline-success">Book Ride</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<!-- Other Rides -->
+@if (Model.OtherRides.Any())
+{
+    <h3 class="mt-4">Other Rides</h3>
+    <div class="list-group">
+        @foreach (var ride in Model.OtherRides)
+        {
+            <div class="list-group-item list-group-item-action mb-2 shadow-sm rounded">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5>@ride.driver_id.ToString()</h5>
+                        <p class="mb-1 text-muted">
+                            @ride.start_point → @ride.destination<br />
+                            Departure: @ride.departure_time.ToString("dd MMM yyyy, HH:mm")
+                        </p>
+                    </div>
+                    <div>
+                        <span class="badge bg-primary me-3">@ride.available_seats seats</span>
+                        <button class="btn btn-sm btn-success">Book Ride</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else if (!Model.TopMatches.Any())
+{
+    <div class="alert alert-warning mt-4">
+        No rides available at the moment.
+    </div>
+}

@@ -1,0 +1,325 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+   for details on configuring this project to bundle and minify static web assets. */
+
+/* ==============================
+   Bootstrap Overrides & Defaults
+   ============================== */
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+/* ==============================
+   TripSync Custom Styles
+   ============================== */
+
+/* Root Colors & Variables */
+:root {
+    --brand: #2C7BE5;
+    --brand-2: #00C48C;
+    --ink: #1f2937;
+    --muted: #6b7280;
+}
+/* Containers & Layout */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.section {
+    padding: 2.5rem 0;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--brand);
+    color: white;
+    transition: 0.2s;
+}
+
+    .btn-primary:hover {
+        filter: brightness(0.95);
+    }
+
+.btn-secondary {
+    background: white;
+    color: var(--ink);
+    border-color: #e5e7eb;
+    transition: 0.2s;
+}
+
+    .btn-secondary:hover {
+        background-color: #f9fafb;
+    }
+
+/* Cards & Chips */
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    background-color: #f9fafb;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+}
+
+.muted {
+    color: var(--muted);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(180deg, #f8fafc, #ffffff);
+    border-bottom: 1px solid #f1f5f9;
+}
+
+/* KPI Metrics */
+.kpi {
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+/* Accessibility Utilities */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Forms */
+form .row {
+    display: grid;
+    gap: 0.75rem;
+}
+
+@media (min-width: 900px) {
+    form .row {
+        grid-template-columns: 2fr 2fr 1.5fr 1fr;
+    }
+}
+
+label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+}
+
+/* Footer Links */
+.footer nav a {
+    margin: 0 0.3rem;
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.footer nav a:hover {
+    color: var(--brand);
+    text-decoration: underline;
+}
+
+/* ===========================
+   RIDE SEARCH FORM
+   =========================== */
+.trip-search-form {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Flex row for better control than Bootstrap's .row */
+.trip-search-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Fields */
+.trip-field {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 250px; /* <---- KEY FIX: forces min width */
+    min-width: 250px;
+}
+
+/* Inputs */
+.trip-input {
+    padding: 14px 16px;
+    font-size: 1.05rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+
+/* Focus highlight */
+.trip-input:focus {
+    border-color: #1b6ec2;
+    box-shadow: 0 0 0 3px rgba(27, 110, 194, 0.2);
+    outline: none;
+}
+
+/* Button */
+.trip-button {
+    display: flex;
+    align-items: flex-end;
+    flex: 0 0 auto;
+}
+
+.trip-button button {
+    padding: 14px 24px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 768px) {
+    .trip-search-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .trip-button button {
+        width: 100%;
+    }
+}
+
+

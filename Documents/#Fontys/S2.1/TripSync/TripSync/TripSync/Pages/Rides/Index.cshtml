@@ -1,0 +1,13 @@
+﻿@page
+@model TripSync.Pages.Rides.IndexModel
+@{
+    ViewData["Title"] = "Rides";
+}
+
+<h1>Find or Offer a Ride</h1>
+<p class="text-muted">Search for available rides or offer your own.</p>
+
+<div class="mt-4">
+    <a class="btn btn-primary btn-lg me-3" asp-page="/Rides/Search">🔍 Search Rides</a>
+    <a class="btn btn-success btn-lg" asp-page="/Rides/Offer">🚗 Offer a Ride</a>
+</div>

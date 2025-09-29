@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TripSync</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- TripSync Custom Styles -->
+    <link rel="stylesheet" href="~/Pages/Shared/_Layout.cshtml.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- =======================
+         NAVBAR
+    ========================== -->
+    <header>
+        <nav class="navbar navbar-expand-lg trip-navbar shadow-sm">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand trip-logo" asp-area="" asp-page="/Index">
+                    🚗 TripSync
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent" aria-controls="navbarContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav Links -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto align-items-center gap-lg-2">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/MyRides">My Rides</a>
+                        </li>
+
+                        @if (Context.Session.GetInt32("UserId") != null)
+                        {
+                            var userId = Context.Session.GetInt32("UserId");
+
+                            string userName = "User"; // default fallback
+                                                      // Fetch the user's name from DB
+                            using (var conn = new System.Data.SqlClient.SqlConnection(
+                            Context.RequestServices.GetRequiredService<IConfiguration>()
+                            .GetConnectionString("TripSyncDb")))
+                            {
+                                conn.Open();
+                                using (var cmd = new System.Data.SqlClient.SqlCommand(
+                                "SELECT name FROM users WHERE user_id = @Id", conn))
+                                {
+                                    cmd.Parameters.AddWithValue("@Id", userId);
+                                    var result = cmd.ExecuteScalar();
+                                    if (result != null)
+                                        userName = result.ToString();
+                                }
+                            }
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Welcome, @userName
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li><a class="dropdown-item" asp-page="/Account/Logout">Logout</a></li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item ms-lg-3">
+                                <a class="btn btn-primary px-3" asp-area="" asp-page="/Account/Login">Login</a>
+                            </li>
+                            <li class="nav-item ms-2">
+                                <a class="btn btn-secondary px-3" asp-area="" asp-page="/Account/Register">Sign Up</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =======================
+         MAIN CONTENT
+    ========================== -->
+    <main class="main-content container my-4">
+        @RenderBody()
+    </main>
+
+    <!-- =======================
+         FOOTER
+    ========================== -->
+    <footer class="trip-footer mt-5">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <span>&copy; 2025 TripSync • Share rides, split costs, save CO₂</span>
+            <nav class="footer-links mt-2 mt-md-0">
+                <a href="/About">About</a>
+                <a href="/Safety">Safety</a>
+                <a href="/Legal/Privacy">Privacy</a>
+                <a href="/Legal/Terms">Terms</a>
+                <a href="/Contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

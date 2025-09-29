@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TripSync
+build_property.RootNamespace = TripSync
+build_property.ProjectDir = C:\Users\TimHo\Documents\#Fontys\S2.1\TripSync\TripSync\TripSync\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\TimHo\Documents\#Fontys\S2.1\TripSync\TripSync\TripSync
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/MyRides.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlSaWRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Rides/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmlkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Rides/Offer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmlkZXNcT2ZmZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Rides/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmlkZXNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TimHo/Documents/\#Fontys/S2.1/TripSync/TripSync/TripSync/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f35kwawq44

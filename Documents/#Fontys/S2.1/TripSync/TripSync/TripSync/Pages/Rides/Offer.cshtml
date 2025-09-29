@@ -1,0 +1,47 @@
+﻿@page
+@model TripSync.Pages.Rides.OfferModel
+@{
+    ViewData["Title"] = "Offer a Ride";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-3">Offer a Ride</h1>
+    <form method="post" class="card p-4 shadow-sm">
+        <div class="mb-3">
+            <label for="from" class="form-label">From</label>
+            <input id="from" name="From" class="form-control" value="@Model.From" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="to" class="form-label">To</label>
+            <input id="to" name="To" class="form-control" value="@Model.To" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="date" class="form-label">Departure Time</label>
+            <input id="date" name="Date" type="datetime-local" class="form-control" value="@Model.Date.ToString("yyyy-MM-ddTHH:mm")" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="seats" class="form-label">Available Seats</label>
+            <input id="seats" name="Seats" type="number" min="1" class="form-control" value="@Model.Seats" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label">Estimated Cost (€)</label>
+            <input id="price" name="Price" type="number" min="0" step="0.01" class="form-control" value="@Model.Price" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Post Ride</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+    {
+        <div class="alert alert-success mt-3">@Model.SuccessMessage</div>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger mt-3">@Model.ErrorMessage</div>
+    }
+</div>
