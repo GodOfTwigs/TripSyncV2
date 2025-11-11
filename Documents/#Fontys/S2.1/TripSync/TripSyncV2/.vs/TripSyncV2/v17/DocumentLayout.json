@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\tripsyncv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\tripsyncv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\dataaccess\\riderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\riderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -118,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,7 +138,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "TripSyncV2",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\TripSyncV2.csproj",
+              "RelativeDocumentMoniker": "TripSyncV2\\TripSyncV2.csproj",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\TripSyncV2.csproj",
+              "RelativeToolTip": "TripSyncV2\\TripSyncV2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-11T12:06:52.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MyRides.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\MyRides.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\MyRides.cshtml",
@@ -146,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RideRepository.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\RideRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\RideRepository.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RidePassenger.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\RidePassenger.cs",
               "RelativeDocumentMoniker": "Domain\\RidePassenger.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Ride.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\Ride.cs",
               "RelativeDocumentMoniker": "Domain\\Ride.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MyRides.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\MyRides.cshtml.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\MyRides.cshtml.cs",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TripSyncV2\\wwwroot\\css\\site.css",
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RideService.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\RideService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\RideService.cs",
@@ -219,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User.cs",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Program.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Program.cs",
@@ -243,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Search.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Search.cshtml",
@@ -255,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Search.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Search.cshtml.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Search.cshtml.cs",
@@ -267,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Register.cshtml.cs",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Shared\\_Layout.cshtml",
@@ -291,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\UserService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\UserService.cs",
@@ -303,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\UserRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\UserRepository.cs",
@@ -315,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Login.cshtml",
@@ -327,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "OfferRide.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\OfferRide.cshtml.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\OfferRide.cshtml.cs",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "logout.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\logout.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\logout.cshtml",
@@ -351,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\logout.cshtml.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\logout.cshtml.cs",
@@ -363,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Login.cshtml.cs",
@@ -375,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Register.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Register.cshtml",
@@ -387,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Index.cshtml.cs",
@@ -399,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "OfferRide.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\OfferRide.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\OfferRide.cshtml",
@@ -411,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Index.cshtml",
@@ -423,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\appsettings.json",
               "RelativeDocumentMoniker": "TripSyncV2\\appsettings.json",
@@ -435,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DataAccess.csproj",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\DataAccess.csproj",
               "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
@@ -443,11 +460,12 @@
               "RelativeToolTip": "DataAccess\\DataAccess.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T14:43:17.066Z"
+              "WhenOpened": "2025-11-03T14:43:17.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "BusinessLogic.csproj",
               "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\BusinessLogic.csproj",
               "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogic.csproj",
@@ -455,7 +473,8 @@
               "RelativeToolTip": "BusinessLogic\\BusinessLogic.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T14:42:56.584Z"
+              "WhenOpened": "2025-11-03T14:42:56.584Z",
+              "EditorCaption": ""
             }
           ]
         }

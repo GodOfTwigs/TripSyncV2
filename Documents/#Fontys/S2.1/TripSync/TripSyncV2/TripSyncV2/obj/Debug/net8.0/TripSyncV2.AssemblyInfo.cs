@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TripSyncV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db8e14809ee0bf0de501e8557785b0f947c6d3c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+392c7c4c4b2c1800d279601e48bda73c1d759c89")]
 [assembly: System.Reflection.AssemblyProductAttribute("TripSyncV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TripSyncV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
