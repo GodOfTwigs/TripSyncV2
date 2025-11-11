@@ -1,0 +1,90 @@
+﻿/* ===============================
+   Navbar & Links
+   =============================== */
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #d27aff;
+}
+
+    a.navbar-brand:hover {
+        color: #b55fcc;
+    }
+
+a {
+    color: #d27aff;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #b55fcc;
+        text-decoration: underline;
+    }
+
+/* ===============================
+   Buttons in Navbar / Pills
+   =============================== */
+.btn-primary {
+    color: #fff;
+    background-color: #d27aff;
+    border-color: #d27aff;
+    transition: all 0.2s ease-in-out;
+}
+
+    .btn-primary:hover {
+        background-color: #b55fcc;
+        border-color: #b55fcc;
+        color: #fff;
+    }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #d27aff;
+    border-color: #d27aff;
+}
+
+    .nav-pills .nav-link.active:hover,
+    .nav-pills .show > .nav-link:hover {
+        background-color: #b55fcc;
+        border-color: #b55fcc;
+    }
+
+/* ===============================
+   Borders & Shadows
+   =============================== */
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* ===============================
+   Footer
+   =============================== */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+    color: #333;
+    text-align: center;
+}
+
+/* ===============================
+   Misc / Buttons
+   =============================== */
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}

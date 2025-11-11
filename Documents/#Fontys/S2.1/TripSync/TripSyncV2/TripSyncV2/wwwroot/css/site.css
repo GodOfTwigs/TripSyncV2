@@ -1,0 +1,273 @@
+/* ===============================
+Base Styles
+=============================== */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ===============================
+Buttons
+=============================== */
+.btn-signature {
+    background-color: #d27aff;
+    border-color: #d27aff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+    .btn-signature:hover {
+        background-color: #b55fcc;
+        border-color: #b55fcc;
+        color: #fff;
+    }
+
+    .btn-signature:focus,
+    .btn-signature:active:focus {
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #d27aff;
+    }
+
+/* ===============================
+Form Inputs
+=============================== */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #d27aff;
+    padding: 0.5rem 0.75rem;
+    transition: all 0.2s ease-in-out;
+}
+
+    .form-control:focus {
+        border-color: #b55fcc;
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #d27aff;
+    }
+
+/* ===============================
+Login/Register Page
+Applies when Layout = null
+=============================== */
+body.login-page {
+    background: linear-gradient(135deg, #d27aff, #b55fcc);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.login-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    color: #333;
+}
+
+    .login-card h2 {
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        color: #d27aff;
+    }
+
+    .login-card .form-control {
+        border-radius: 10px;
+        border-color: #d27aff;
+    }
+
+    .login-card .btn-primary {
+        border-radius: 10px;
+        font-weight: 600;
+        width: 100%;
+        background-color: #d27aff;
+        border-color: #d27aff;
+        color: #fff;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .login-card .btn-primary:hover {
+            background-color: #b55fcc;
+            border-color: #b55fcc;
+        }
+
+    .login-card .form-text {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+        .login-card .form-text a {
+            text-decoration: none;
+            color: #d27aff;
+        }
+
+            .login-card .form-text a:hover {
+                text-decoration: underline;
+                color: #b55fcc;
+            }
+
+/* ===============================
+Homepage Styles
+=============================== */
+.homepage-container {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #d27aff, #b55fcc);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+    .hero-section h1 {
+        color: #fff;
+        font-weight: 700;
+        font-size: 2.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-section p.lead {
+        font-size: 1.25rem;
+        color: #f0eaff;
+        margin-bottom: 2rem;
+    }
+
+    .hero-section .btn-signature {
+        font-size: 1.1rem;
+        padding: 0.75rem 1.5rem;
+    }
+
+/* Features Section */
+.features-section {
+    margin-top: 5rem;
+}
+
+    .features-section .feature-card {
+        background: #fff;
+        border-radius: 15px;
+        padding: 2rem;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+    }
+
+        .features-section .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+        }
+
+    .features-section h3 {
+        color: #d27aff;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .features-section p {
+        color: #666;
+    }
+
+/* ===============================
+Utility & Misc
+=============================== */
+.text-muted {
+    color: #666 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p.lead {
+        font-size: 1rem;
+    }
+
+    .features-section .feature-card {
+        padding: 1.5rem;
+    }
+}
+
+/* Offer Ride Page Container */
+.offer-ride-page-container {
+    background: linear-gradient(135deg, #d27aff, #b55fcc);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+/* Offer Ride Card stays white for contrast */
+.offer-ride-card {
+    background: #fff;
+    border-radius: 15px;
+    max-width: 480px;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+    .offer-ride-card:hover {
+        transform: translateY(-3px);
+    }
+
+    .offer-ride-card h2 {
+        color: #d27aff;
+        font-weight: 700;
+    }
+
+    /* Form controls */
+    .offer-ride-card .form-control {
+        border-radius: 10px;
+        border: 1px solid #d27aff;
+    }
+
+        .offer-ride-card .form-control:focus {
+            border-color: #b55fcc;
+            box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #d27aff;
+        }
+
+    /* Buttons */
+    .offer-ride-card .btn-signature {
+        background-color: #d27aff;
+        border-color: #d27aff;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+        .offer-ride-card .btn-signature:hover {
+            background-color: #b55fcc;
+            border-color: #b55fcc;
+        }
+

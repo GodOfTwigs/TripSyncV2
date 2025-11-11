@@ -1,0 +1,46 @@
+﻿@page
+@model TripSyncV2.Pages.SearchModel
+@{
+    ViewData["Title"] = "All Rides";
+    var userId = HttpContext.Session.GetInt32("UserId");
+}
+
+<h1>Available Rides</h1>
+
+@if (!Model.Rides.Any())
+{
+    <p>No rides available at the moment.</p>
+}
+else
+{
+    <div class="list-group mt-3">
+        @foreach (var ride in Model.Rides)
+        {
+            <div class="list-group-item mb-2 shadow-sm rounded">
+                <h5 class="mb-1">From @ride.start_point → @ride.destination</h5>
+                <p class="mb-1 text-muted">
+                    Departure: @ride.departure_time.ToString("dd MMM yyyy, HH:mm")<br />
+                    Seats: @ride.available_seats<br />
+                    Price: €@ride.estimated_cost
+                </p>
+
+                @if (userId != null)
+                {
+                    <form method="post" asp-page-handler="JoinRide">
+                        <input type="hidden" name="rideId" value="@ride.ride_id" />
+                        <button type="submit" class="btn btn-signature">Join Ride</button>
+                    </form>
+                }
+                else
+                {
+                    <p class="text-muted">Log in to join this ride.</p>
+                }
+            </div>
+        }
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.FeedbackMessage))
+{
+    <div class="alert alert-info mt-3">@Model.FeedbackMessage</div>
+}

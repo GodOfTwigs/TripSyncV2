@@ -1,0 +1,465 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\dataaccess\\riderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\riderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964360EA-654A-49EE-8F4A-C7E227AD2AA2}|Domain\\Domain.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\domain\\ridepassenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964360EA-654A-49EE-8F4A-C7E227AD2AA2}|Domain\\Domain.csproj|solutionrelative:domain\\ridepassenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964360EA-654A-49EE-8F4A-C7E227AD2AA2}|Domain\\Domain.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\domain\\ride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964360EA-654A-49EE-8F4A-C7E227AD2AA2}|Domain\\Domain.csproj|solutionrelative:domain\\ride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\myrides.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\myrides.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51D7F56-EA9F-4603-8978-E66D2C5F9B02}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\businesslogic\\rideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51D7F56-EA9F-4603-8978-E66D2C5F9B02}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\rideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\myrides.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\myrides.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964360EA-654A-49EE-8F4A-C7E227AD2AA2}|Domain\\Domain.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964360EA-654A-49EE-8F4A-C7E227AD2AA2}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51D7F56-EA9F-4603-8978-E66D2C5F9B02}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\businesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51D7F56-EA9F-4603-8978-E66D2C5F9B02}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\offerride.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\offerride.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\offerride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\offerride.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\tripsyncv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4EDA603A-C1DA-4F13-8869-7EE499DED7E0}|TripSyncV2\\TripSyncV2.csproj|solutionrelative:tripsyncv2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2A4EAEF-DF74-4FE6-849C-5861C8163AD5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51D7F56-EA9F-4603-8978-E66D2C5F9B02}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\timho\\documents\\#fontys\\s2.1\\tripsync\\tripsyncv2\\businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A51D7F56-EA9F-4603-8978-E66D2C5F9B02}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyRides.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\MyRides.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\MyRides.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\MyRides.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\MyRides.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:40:29.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RideRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\RideRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\RideRepository.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\RideRepository.cs",
+              "RelativeToolTip": "DataAccess\\RideRepository.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAUwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:37:06.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RidePassenger.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\RidePassenger.cs",
+              "RelativeDocumentMoniker": "Domain\\RidePassenger.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\RidePassenger.cs",
+              "RelativeToolTip": "Domain\\RidePassenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T09:56:23.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ride.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\Ride.cs",
+              "RelativeDocumentMoniker": "Domain\\Ride.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\Ride.cs",
+              "RelativeToolTip": "Domain\\Ride.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:40:26.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyRides.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\MyRides.cshtml.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\MyRides.cshtml.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\MyRides.cshtml.cs",
+              "RelativeToolTip": "TripSyncV2\\Pages\\MyRides.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:05:11.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TripSyncV2\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TripSyncV2\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAlwBwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-05T10:53:02.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RideService.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\RideService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\RideService.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\RideService.cs",
+              "RelativeToolTip": "BusinessLogic\\RideService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:36:50.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:44:37.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Program.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Program.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Program.cs",
+              "RelativeToolTip": "TripSyncV2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:06:26.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Search.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Search.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Search.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Search.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:40:45.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Search.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Search.cshtml.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Search.cshtml.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Search.cshtml.cs",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Search.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:00:59.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Register.cshtml.cs",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:18:29.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T12:34:19.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\UserService.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\UserService.cs",
+              "RelativeToolTip": "BusinessLogic\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T10:37:40.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\UserRepository.cs",
+              "RelativeToolTip": "DataAccess\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T09:57:23.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Login.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T10:46:52.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OfferRide.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\OfferRide.cshtml.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\OfferRide.cshtml.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\OfferRide.cshtml.cs",
+              "RelativeToolTip": "TripSyncV2\\Pages\\OfferRide.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:17:52.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\logout.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\logout.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\logout.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T12:42:18.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\logout.cshtml.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\logout.cshtml.cs",
+              "RelativeToolTip": "TripSyncV2\\Pages\\logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:42:27.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:55:18.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Register.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Register.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Register.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T12:14:17.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:32:37.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OfferRide.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\OfferRide.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\OfferRide.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\OfferRide.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\OfferRide.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:41:04.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "TripSyncV2\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "TripSyncV2\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T10:32:03.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\appsettings.json",
+              "RelativeDocumentMoniker": "TripSyncV2\\appsettings.json",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\TripSyncV2\\appsettings.json",
+              "RelativeToolTip": "TripSyncV2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-04T10:44:15.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T14:43:17.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BusinessLogic.csproj",
+              "DocumentMoniker": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\BusinessLogic.csproj",
+              "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogic.csproj",
+              "ToolTip": "C:\\Users\\TimHo\\Documents\\#Fontys\\S2.1\\TripSync\\TripSyncV2\\BusinessLogic\\BusinessLogic.csproj",
+              "RelativeToolTip": "BusinessLogic\\BusinessLogic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T14:42:56.584Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

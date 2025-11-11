@@ -1,0 +1,68 @@
+﻿@page
+@model TripSyncV2.Pages.MyRidesModel
+@{
+    ViewData["Title"] = "My Rides";
+}
+
+<h1 class="mb-4 text-center">My Rides</h1>
+
+@if (Model.OfferedRides == null && Model.JoinedRides == null)
+{
+    <p class="text-center text-muted">You must be logged in to see your rides.</p>
+}
+else
+{
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h3 class="text-signature">Offered Rides</h3>
+
+                @if (!Model.OfferedRides.Any())
+                {
+                    <p class="text-muted">You haven't offered any rides yet.</p>
+                }
+                else
+                {
+                    <div class="list-group">
+                        @foreach (var ride in Model.OfferedRides)
+                        {
+                            <div class="list-group-item shadow-sm mb-2 rounded">
+                                <h5>From @ride.start_point → @ride.destination</h5>
+                                <p class="mb-1 text-muted">
+                                    Departure: @ride.departure_time.ToString("dd MMM yyyy, HH:mm")<br />
+                                    Seats: @ride.available_seats<br />
+                                    Price: €@ride.estimated_cost
+                                </p>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <h3 class="text-signature">Joined Rides</h3>
+
+                @if (!Model.JoinedRides.Any())
+                {
+                    <p class="text-muted">You haven’t joined any rides yet.</p>
+                }
+                else
+                {
+                    <div class="list-group">
+                        @foreach (var ride in Model.JoinedRides)
+                        {
+                            <div class="list-group-item shadow-sm mb-2 rounded">
+                                <h5>From @ride.start_point → @ride.destination</h5>
+                                <p class="mb-1 text-muted">
+                                    Departure: @ride.departure_time.ToString("dd MMM yyyy, HH:mm")<br />
+                                    Driver: @ride.driver_id<br />
+                                    Price: €@ride.estimated_cost
+                                </p>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
